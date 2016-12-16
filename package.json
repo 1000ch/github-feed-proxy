@@ -1,0 +1,25 @@
+{
+  "name": "github-feed-proxy",
+  "private": true,
+  "version": "0.0.0",
+  "description": "GitHub Releases and Tags feed proxy",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1000ch/github-feed-proxy.git"
+  },
+  "author": "1000ch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1000ch/github-feed-proxy/issues"
+  },
+  "homepage": "https://github.com/1000ch/github-feed-proxy#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "got": "^6.6.3",
+    "pify": "^2.3.0",
+    "xml2js": "^0.4.17"
+  }
+}
